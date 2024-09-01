@@ -19,7 +19,9 @@ To use EasyGraphy, simply download the project files and open `index.html` in yo
 - A modern web browser that supports HTML5, CSS3, and JavaScript.
 
 ### Using
-
+```
+https://simplyyan.github.io/EasyGraphy/
+```
 
 
 ## Usage
