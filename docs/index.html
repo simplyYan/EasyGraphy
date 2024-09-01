@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyGraphy</title>
+    
+    <link href="bootstrap.min.css" rel="stylesheet">
+    
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1>EasyGraphy</h1>
+            <button id="theme-toggle" class="btn btn-secondary">🔆 Light Theme</button>
+        </div>
+
+        <div class="mb-3">
+            <label for="inputText" class="form-label">Text</label>
+            <textarea class="form-control" id="inputText" rows="5" placeholder="Type the text here..."></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="password" class="form-label">Keyword (4-32 characters)</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter your keyword">
+        </div>
+
+        <div class="d-flex gap-2 mb-4">
+            <button id="encrypt-btn" class="btn btn-primary flex-fill">Encrypt</button>
+            <button id="decrypt-btn" class="btn btn-warning flex-fill">Decrypt</button>
+        </div>
+
+        <div class="mb-3">
+            <label for="outputText" class="form-label">Result</label>
+            <textarea class="form-control" id="outputText" rows="5" readonly placeholder="The result will appear here..."></textarea>
+        </div>
+
+        <div class="d-flex gap-2">
+            <button id="copy-btn" class="btn btn-success flex-fill">Copy text</button>
+            <button id="save-btn" class="btn btn-info flex-fill">Save as TXT</button>
+        </div>
+    </div>
+
+    
+    <script src="bootstrap.bundle.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
